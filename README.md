@@ -1,9 +1,9 @@
 # GameMaker-Git-Config
 
-###Setting up a Github Git repository for Game Maker: Studio 2
-####Bennett Foddy, NYU Game Center, 2020
+### Setting up a Github Git repository for Game Maker: Studio 2
+#### Bennett Foddy, NYU Game Center, 2020
 
-##Part I: Setting Up a Github Repository
+## Part I: Setting Up a Github Repository
 
 First step is to create our empty remote repository on Github.com. Go to Github, log in, then press the + button in the upper right to create a new repository.
 
