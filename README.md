@@ -14,7 +14,9 @@
 
 2. Put in a useful name and description of the project. If you have applied for the free ‘student pack’ (https://education.github.com/pack) you can choose to make the project private (I wouldn’t worry if it has to be public though - nobody is gonna steal your student project’s code). 
 
-![Create New Repo](/images/create_new_repo.png)
+<p align="center">
+  <img src="/images/create_new_repo.png" />
+</p>
 
 Click the green Create Repository button when you’re ready.
 
@@ -22,19 +24,29 @@ Click the green Create Repository button when you’re ready.
 
 We will need this URL to paste in two places within Game Maker.
 
-![Create New Repo](/images/clone.png)
+<p align="center">
+  <img src="/images/clone.png" />
+</p>
 
 4. Next we have to enable the built-in Git support in Game Maker, both for the application and for the project. Go to Game Maker preferences, and click Plugins->Source Control
 
-![Create New Repo](/images/gm_source_control.png)
+<p align="center">
+  <img src="/images/gm_source_control.png" />
+</p>
 
 5. Fill in the ‘Identity’ fields with your name and email address. Then click ‘Add User/Pass Authentication’. Fill in your Github username, password, and checkout URL.
 
-![Create New Repo](/images/git_authentication.png)
+
+<p align="center">
+  <img src="/images/git_authentication.png" />
+</p>
 
 6. To enable it for your project, go to the Resources panel, go to Options->Main, and check ‘enable source control’.
 
-![Create New Repo](/images/enable_button.png)
+
+<p align="center">
+  <img src="/images/enable_button.png" />
+</p>
 
 7. Now we are ready to attach the remote to the project. Go to the ‘Source Control’ menu that should now be visible at the top of the screen, and …
 
@@ -46,18 +58,27 @@ END WARNING
 
 Instead, click ‘Import project into repository’
 
-![Create New Repo](/images/import_project.png)
+
+<p align="center">
+  <img src="/images/import_project.png" />
+</p>
 
 8. Paste your repository clone URL into the field that appears.
 
-![Create New Repo](/images/clone_url_paste.png)
+
+<p align="center">
+  <img src="/images/clone_url_paste.png" />
+</p>
 
 9. Press ‘OK’ and everything should now be set up.
 
 ## Part II: Using your Github Repository (alone, without teammates)
 Work as normal in Game Maker until you have some changes that you wouldn’t want to lose if your computer crashed. The first step is to commit those changes to the local Git repository (on your computer). Go to Source Control->Commit Changes
 
-![Create New Repo](/images/commit_changes.png)
+
+<p align="center">
+  <img src="/images/commit_changes.png" />
+</p>
 
 1. You’ll see a list of files that changed, and you can ‘stage’ them to add them to the commit. You probably want to just click ‘Stage All’ if you’re working alone, since it’s unlikely you have changes you don’t want to check in. 
 
@@ -75,11 +96,17 @@ The other reason is that if you’re working with teammates, you have to pull th
 
 What if you made some bad changes and broke your player movement or overwrote a good-looking sprite with a bad one? You want to revert to an older version. Click Source Control->View History. Here you can click your commits to see what files changed in each one.
 
-![Create New Repo](/images/view_history.png)
+
+<p align="center">
+  <img src="/images/view_history.png" />
+</p>
 
 To return to an older commit, right-click the one you want and choose Revert To This Revision. After a second or two, Game Maker will ask if you want to reload the project (and you should say yes). Done!
 
-![Create New Repo](/images/revert.png)
+
+<p align="center">
+  <img src="/images/revert.png" />
+</p>
 
 Oh no, what if I reverted by mistake??
 No worries, the newer files are still there. Just go back to the history and ‘Revert to This Revision’ on the newer commit.
