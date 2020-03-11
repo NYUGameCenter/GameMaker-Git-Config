@@ -8,7 +8,7 @@
 1. First step is to create our empty remote repository on Github.com. Go to Github, log in, then press the + button in the upper right to create a new repository.
 
 <p align="center">
-  <img /images/new_repo.png>
+  <img src="/images/new_repo.png" />
 </p>
 
 
