@@ -7,7 +7,9 @@
 
 1. First step is to create our empty remote repository on Github.com. Go to Github, log in, then press the + button in the upper right to create a new repository.
 
-![New Repo](/images/new_repo.png)
+<p align="center">
+  <img /images/new_repo.png>
+</p>
 
 
 2. Put in a useful name and description of the project. If you have applied for the free ‘student pack’ (https://education.github.com/pack) you can choose to make the project private (I wouldn’t worry if it has to be public though - nobody is gonna steal your student project’s code). 
